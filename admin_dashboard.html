@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="admin-header">
+    <h1>Admin Dashboard</h1>
+  </div>
+
+  <div class="admin-section">
+    <h2>Pending Deposits</h2>
+    <div class="request-card">
+      <p>User: 017XXXXXXXX</p>
+      <p>Amount: 1000 Tk</p>
+      <p>Txn ID: TXN123456</p>
+      <button class="approve-btn">Approve</button>
+      <button class="reject-btn">Reject</button>
+    </div>
+  </div>
+
+  <div class="admin-section">
+    <h2>Withdraw Requests</h2>
+    <div class="request-card">
+      <p>User: 018XXXXXXXX</p>
+      <p>Amount: 500 Tk</p>
+      <p>Wallet: bKash</p>
+      <p>Txn ID: TXN654321</p>
+      <button class="approve-btn">Approve</button>
+      <button class="reject-btn">Reject</button>
+    </div>
+  </div>
+
+  <div class="admin-section">
+    <h2>Update User Balance</h2>
+    <form id="balance-form">
+      <input type="text" placeholder="User Phone">
+      <input type="number" placeholder="Amount">
+      <button type="submit">Update</button>
+    </form>
+  </div>
+</body>
+</html>

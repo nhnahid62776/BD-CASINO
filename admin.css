@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+.admin-header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.admin-section {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.admin-section h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+.request-card {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+.approve-btn, .reject-btn {
+  margin: 5px 10px 0 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+.approve-btn {
+  background-color: #28a745;
+}
+.reject-btn {
+  background-color: #dc3545;
+}
+#balance-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#balance-form input, #balance-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+#balance-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#balance-form button:hover {
+  background-color: #0056b3;
+}
